@@ -1,6 +1,7 @@
 //components/addBlog
 import React, { useState } from 'react';
 import axios from 'axios';
+import './addblog.css'
 
 const AddBlog = () => {
   const [title, setTitle] = useState('');

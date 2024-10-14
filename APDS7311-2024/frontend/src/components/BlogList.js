@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import './Bloglist.css';
+
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
