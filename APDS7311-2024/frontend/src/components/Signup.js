@@ -13,7 +13,7 @@ const Signup = () => {
   const handleSignup = (e) => {
     e.preventDefault();
 
-    axios.post('http://127.0.0.1:443/signup', {
+    axios.post('https://127.0.0.1:443/signup', {
       name,
       surname,
       email,
